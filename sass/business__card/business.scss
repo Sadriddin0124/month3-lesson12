@@ -1,0 +1,70 @@
+%flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+%flex-change {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+%title {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+%subtitle {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+
+.business {
+    padding: 150px 20px;
+    @extend %flex-center;
+    background-color: #1F2E35;
+}
+
+.business__card {
+    // max-width: 1100px;
+    padding: 40px 50px;
+    @extend %flex-center;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    border-radius: 32px;
+    background: #02897A;
+}
+
+.business__card-txt {
+    max-width: 500px;
+    @extend %title;
+    @extend %flex-column;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.business__card-btn {
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #FFF !important;
+}
+
+.business__card-img {
+    max-width: 351px;
+    img {
+        width: 100%;
+    }
+}

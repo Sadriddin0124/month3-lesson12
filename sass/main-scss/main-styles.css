@@ -1,0 +1,42 @@
+@import url("../header/header.css");
+@import url("../enterprice/enterprice.css");
+@import url("../product/prodect.css");
+@import url("../faq/faq.css");
+@import url("../business__card/business.css");
+@import url("../footer/footer.css");
+@import url("../media/media.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../../Poppins/Poppins-Regular.ttf");
+}
+.btn__global {
+  padding: 10px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  background-color: #02897A;
+}
+
+.btn__outline {
+  padding: 10px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #BCD0E5;
+}/*# sourceMappingURL=main-styles.css.map */

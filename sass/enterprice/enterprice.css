@@ -1,0 +1,33 @@
+.enterprice {
+  display: flex;
+  flex-direction: column;
+}
+
+.enterprice__title {
+  color: #FFF;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.enterprice__subtitle {
+  color: #FFF;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.enterprice {
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+  padding: 50px;
+  background: #22343D;
+}
+
+.enterprice__btn {
+  color: #FFF;
+  font-size: 18px;
+}/*# sourceMappingURL=enterprice.css.map */

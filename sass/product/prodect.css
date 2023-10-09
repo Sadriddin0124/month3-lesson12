@@ -1,0 +1,82 @@
+.p__card-items, .product__card-text, .product {
+  display: flex;
+  flex-direction: column;
+}
+
+.p__card-icon, .p__card-items-title, .product__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.product__title {
+  color: #FFF;
+  text-align: center;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.product {
+  width: 100%;
+  background: #1F2E35;
+  gap: 50px;
+  align-items: center;
+  padding: 150px 20px;
+}
+
+.product__card {
+  gap: 60px;
+}
+
+.product__card-img {
+  max-width: 528px;
+  width: 100%;
+}
+.product__card-img img {
+  width: 100%;
+}
+
+.product__card-text {
+  gap: 30px;
+  max-width: 530px;
+  color: #FFF;
+}
+
+.p__card-title {
+  font-size: 24px;
+}
+
+.p__card-items {
+  align-items: start;
+  gap: 15px;
+}
+
+.p__card-items-title {
+  gap: 15px;
+  justify-content: start;
+  color: #FFF;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.p__card-icon {
+  background-color: #FFF;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.p__card-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.p__card-desc {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}/*# sourceMappingURL=prodect.css.map */

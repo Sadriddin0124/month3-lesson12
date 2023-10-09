@@ -1,0 +1,50 @@
+.business__card-txt {
+  display: flex;
+  flex-direction: column;
+}
+
+.business__card, .business {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.business__card-txt {
+  color: #FFF;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.business {
+  padding: 150px 20px;
+  background-color: #1F2E35;
+}
+
+.business__card {
+  padding: 40px 50px;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  border-radius: 32px;
+  background: #02897A;
+}
+
+.business__card-txt {
+  max-width: 500px;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.business__card-btn {
+  font-weight: 600;
+  font-size: 20px;
+  background-color: #FFF !important;
+}
+
+.business__card-img {
+  max-width: 351px;
+}
+.business__card-img img {
+  width: 100%;
+}/*# sourceMappingURL=business.css.map */

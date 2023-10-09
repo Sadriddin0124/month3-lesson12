@@ -1,0 +1,55 @@
+%flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+%flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+%flex-change {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+%title {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+%subtitle {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.enterprice {
+    width: 100%;
+    @extend %flex-column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    background: #22343D;
+}
+
+.enterprice__title {
+    @extend %title;
+}
+
+.enterprice__subtitle {
+    @extend %subtitle;
+}
+
+.enterprice__btn {
+    color: #FFF;
+    font-size: 18px;
+}
