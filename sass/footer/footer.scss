@@ -48,6 +48,7 @@
 
 .footer__item {
     @extend %flex-column;
+    align-items: flex-start;
     gap: 10px;
 }
 
