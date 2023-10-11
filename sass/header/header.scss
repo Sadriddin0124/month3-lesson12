@@ -108,7 +108,7 @@
     background-color: #1F2E35;
     @extend %flex-column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 30px;
 }
 
@@ -131,6 +131,8 @@
 .header__cards {
     @extend %flex-center;
     gap: 70px;
+    max-width: 1300px;
+    width: 100%;
 }
 
 .header__card {

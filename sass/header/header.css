@@ -104,7 +104,7 @@
   min-height: 110vh;
   background-color: #1F2E35;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 30px;
 }
 
@@ -118,6 +118,8 @@
 
 .header__cards {
   gap: 70px;
+  max-width: 1300px;
+  width: 100%;
 }
 
 .header__card {
